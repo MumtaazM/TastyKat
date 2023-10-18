@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>TastyKats</title>
+</head>
+<body>
+    <div id="main-header">
+        <nav>
+            <ul id ="left-nav">
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+                <div id="options-container">
+                    <div id="lang-options" class="dropdown">
+                        <button class="btn" class="dropbtn">Eng</button>
+                        <div class="dropdown-content">
+                            <button class="btn">FR</button>
+                        </div>
+                    </div>
+                    <img id="small-divider1" src="data/divider.png">
+                    <div id="country-options" class="dropdown">
+                        <button class="btn" class="dropbtn">CAN</button>
+                        <div class="dropdown-content">
+                            <button class="btn">USD</button>
+                        </div>
+                    </div>
+                    <img id="small-divider2" src="data/divider.png">
+                    <a href=""><button class="btn" id="signup-btn">Sign In / Sign Up</button></a>
+                </div>
+                <div id="shopping-options">
+                    <a href="saved-products.html"><img id="heart-icon" src="data/Heart.png"></a>
+                    <a href=""><img id="divider" src="data/divider2.png"></a>
+                    <a href="shopping-cart.html" target="_blank"><img id="bag-icon" src="data/Bag.png"></a>
+                    <div id="shopping-cart-details">
+                        <span id="shopping-cart-span">Shopping cart:</span>
+                        <span id="money-detail-span">$57.00</span>
+                    </div>
+                </div>
+            </ul>
+            <img id="phone-icon" src="data/Call Now.png">
+            <img id="logo" src = "data/Logo.png">
+        </nav>
+    </div>
+    <div id="black-header">
+        <ul>
+            <img id="cservice-icon" src="data/service-icon.png">
+        </ul>
+    </div>
+
+    <main>
+
+        <div id="banner-div">
+            <img id="banner-img" src="data/TastyBanner.png">
+            <div id="banner-container"></div>
+            <div id="banner-text">
+                <h1 id="banner-title">TastyKats</h1>
+                <div id="title-container"></div>
+                <div id="banner-description">
+                    The world's leading wholesaler of cat food
+                </div>
+            </div>
+        </div>
+
+        <form id="form" role="search">
+            <input type="search" id="query" name="q" placeholder="Search products..." aria-label="Search through products">
+            <button id="search-button">Search</button>
+        </form>
+
+        <div class="product-div">
+            <div id="dry-food">
+                <h4 id="Header-title">Dry Food</h4>
+                <div id="viewAllButton">
+                    <a target="_blank" href="extraCatFoodSuggestionsPage.html"><img class="ViewAllButton" src="data/ViewAllButton.png"></a>
+                 </div>
+                <div class="row">
+                    <div class="column">
+                        <img class= "product-image" src="data/acana-dry.webp" alt="acana Dry food">
+                        <span class="price">$14.99</span>
+                        <div class="in-stock">
+                            <img class="in-stock-icon" src="data/Ellipse 129.png">
+                            <span class="in-stock-text">In stock : 2</span>
+                        </div>
+                        <img  class="rating" src="data/rating-4Star.png">
+                        <a target="_blank" href="extraProductPage.html"><img class="add-to-cart-button" src="data/add-to-cart-button.png"></a>
+
+                    </div>
+
+                    <div class="column">
+                            <img class= "product-image" src="data/IamsIndoor.jpg" alt="acana kitten wet food">
+                            <span class="price">$14.99</span>
+                            <div class="in-stock">
+                                <img class="in-stock-icon" src="data/Ellipse 129.png">
+                                <span class="in-stock-text">In stock : 2</span>
+                            </div>
+                            <img  class="rating" src="data/rating-4Star.png">
+                            <a target="_blank" href="extraProductPage.html"><img class="add-to-cart-button" src="data/add-to-cart-button.png"></a>
+
+                    </div>
+
+
+                    <div class="column">
+                                <img class= "product-image" src="data/IAMS2.png" alt="IAMS kitten dry food">
+                                <div class="price-div">
+                                    <span class="price">$14.99 <sup class="CrossoutPrice">$20.99</sup></span>
+                                </div>
+                                <div class="in-stock">
+                                    <img class="in-stock-icon" src="data/Ellipse 129.png">
+                                    <span class="in-stock-text">In stock : 2</span>
+                                </div>
+                                <img  class="rating" src="data/rating-4Star.png">
+                                <a target="_blank" href="extraProductPage.html"><img class="add-to-cart-button" src="data/add-to-cart-button.png"></a>
+
+                    </div>
+                    <div class="column">
+                            <img class= "product-image" src="data/Orijen.png" alt="Orijen dry food">
+                            <span class="price">$14.99</span>
+                            <div class="in-stock">
+                                 <img class="in-stock-icon" src="data/yellow stock.png">
+                                 <span class="in-stock-text">In stock : 2</span>
+                            </div>
+                            <img  class="rating" src="data/rating-4Star.png" alt="4 star rating">
+                            <a target="_blank" href="extraProductPage.html"><img class="add-to-cart-button" src="data/add-to-cart-button.png"></a>
+                    </div>
+
+                    <div class="column">
+                        <img class= "product-image" src="data/IAMSkitten.jpeg" alt="Nacho dry food">
+                        <span class="price">$14.99</span>
+                        <div class="in-stock">
+                             <img class="in-stock-icon" src="data/Ellipse 129.png">
+                             <span class="in-stock-text">In stock : 100</span>
+                        </div>
+                        <img  class="rating" src="data/rating-4Star.png" alt="4 star rating">
+                        <a target="_blank" href="extraProductPage.html"><img class="add-to-cart-button" src="data/add-to-cart-button.png"></a>
+                </div>
+
+                </div>     
+            </div>
+
+
+            <div id="kitten-food">
+                <h4 id="Header-title">Kitten Food</h4>
+                <div id="viewAllButton">
+                    <a target="_blank" href="extraCatFoodSuggestionsPage.html"><img class="ViewAllButton" src="data/ViewAllButton.png"></a>
+                 </div>
+    
+                <div class="row">
+                    <div  class="column">
+                        <img class= "product-image" src="data/IAMSkitten.jpeg" alt="IAMS kitten dry food">
+                        <span class="price">$14.99</span>
+                        <div class="in-stock">
+                            <img class="in-stock-icon" src="data/Ellipse 129.png">
+                            <span class="in-stock-text">In stock : 2</span>
+                        </div>
+                        <img  class="rating" src="data/rating-4Star.png">
+                        <div class="size">
+                            <span>Size: </span>
+                            <button>3 oz</button>
+                            <button>5 oz</button>
+                        </div>
+                        <a target="_blank" href="extraProductPage.html"><img class="add-to-cart-button" src="data/add-to-cart-button.png"></a>
+                    </div>
+            
+                    <div class="column">
+                        <img class= "product-image" src="data/WellnessKitten.jpg" alt="Wellness kitten dry food">
+                        <span class="price">$14.99</span>
+                        <div class="in-stock">
+                            <img class="in-stock-icon" src="data/redstock.png">
+                            <span class="in-stock-text">Not in stock: 0</span>
+                        </div>
+                        <img  class="rating" src="data/rating-4Star.png">
+                        <div class="size">
+                            <span>Size: </span>
+                            <button>3 oz</button>
+                            <button>5 oz</button>
+                        </div>
+                     <img class="add-to-cart-button" src="data/Don'tAddToCartButton.png">
+                    </div>
+
+                    <div class="column">
+                        <img class= "product-image" src="data/royalCanin.jpg" alt="Royal Canin kitten wet food">
+                        <span class="price">$14.99</span>
+                        <div class="in-stock">
+                            <img class="in-stock-icon" src="data/Ellipse 129.png">
+                            <span class="in-stock-text">In stock : 12</span>
+                        </div>
+                        <img  class="rating" src="data/rating-4Star.png">
+                        <div class="size">
+                            <span>Size: </span>
+                            <button>3 oz</button>
+                            <button>5 oz</button>
+                        </div>
+                        <a target="_blank" href="extraProductPage.html"><img class="add-to-cart-button" src="data/add-to-cart-button.png"></a>
+                    </div>
+
+                    <div class="column">
+                        <img class= "product-image" src="data/tikiBabycan.png" alt="tikiBabycan kitten wet food">
+                        <span class="price">$14.99</span>
+                        <div class="in-stock">
+                            <img class="in-stock-icon" src="data/Ellipse 129.png">
+                            <span class="in-stock-text">In stock : 20</span>
+                        </div>
+                        <img  class="rating" src="data/rating-4Star.png">
+                        <div class="size">
+                            <span>Size: </span>
+                            <button>3 oz</button>
+                            <button>5 oz</button>
+                        </div>
+                        <a target="_blank" href="extraProductPage.html"><img class="add-to-cart-button" src="data/add-to-cart-button.png"></a>
+                    </div>
+
+
+                    <div class="column">
+                        <img class= "product-image" src="data/acana-Kittenwet.png" alt="acana kitten wet food">
+                        <span class="price">$14.99</span>
+                        <div class="in-stock">
+                            <img class="in-stock-icon" src="data/Ellipse 129.png">
+                            <span class="in-stock-text">In stock : 15</span>
+                        </div>
+                        <img  class="rating" src="data/rating-4Star.png">
+                        <div class="size">
+                            <span>Size: </span>
+                            <button>3 oz</button>
+                            <button>5 oz</button>
+                        </div>
+                        <a target="_blank" href="extraProductPage.html"><img class="add-to-cart-button" src="data/add-to-cart-button.png"></a>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <div class="footer">
+    <footer>
+     <h5>About Us<h5>
+    <h5>Legal</h5>
+    <h5>Contact Us</h5>
+    </footer>
+    </div>
+    </body>
+</html>

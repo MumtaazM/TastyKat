@@ -31,11 +31,8 @@ nav li {
     padding-right: 5vw;
 }
 
-a:link {
+a:any-link {
     text-decoration: none;
-}
-
-a:visited {
     color: black;
 }
 
